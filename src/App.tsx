@@ -72,16 +72,16 @@ export default function App() {
   // Authentication & Profile States
   const [sessionUser, setSessionUser] = useState<UserProfile | null>(null);
   const [profileForm, setProfileForm] = useState<Partial<UserProfile>>({
-    name: "Ravi Kumar",
-    email: "ravi.kumar@gmail.com",
-    age: 34,
-    gender: 'Male',
-    state: "Telangana",
-    district: "Hyderabad",
-    annualIncome: 180000,
-    category: "OBC",
-    education: "Graduate",
-    occupation: "Farmer",
+    name: "",
+    email: "",
+    age: ,
+    gender: '',
+    state: "",
+    district: "",
+    annualIncome: ,
+    category: "",
+    education: "",
+    occupation: "",
     isPhysicallyChallenged: false,
     isMinority: false,
     isWidowOrSingleMother: false
