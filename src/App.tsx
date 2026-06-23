@@ -90,7 +90,7 @@ export default function App() {
   const [authMode, setAuthMode] = useState<'login' | 'signup' | 'authenticated'>('login');
   const [loginEmail, setLoginEmail] = useState('');
   const [loginPassword, setLoginPassword] = useState('');
-  const [signupPassword, setSignupPassword] = useState('password123');
+  const [signupPassword, setSignupPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
 
